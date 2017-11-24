@@ -103,5 +103,8 @@ ENV/
 # Config files
 *.ini
 
+#PyCharm
+.idea
+
 # sqlite databases
 *.sqlite3
