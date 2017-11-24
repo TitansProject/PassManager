@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Less shit</title>
+</head>
+<body>
+<h1>Wifi passwords</h1>
+<ul>
+    {% for wifi in wifis %}
+        <li>{{ wifi.essid }} : {{ wifi.password }} </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
