@@ -7,8 +7,8 @@
 <body>
 <h1>Wifi passwords</h1>
 <ul>
-    {% for wifi in wifis %}
-        <li>{{ wifi.essid }} : {{ wifi.password }} </li>
+    {% for essid, password in wifis.items %}
+        <li>{{ essid }} : {{ password }} </li>
     {% endfor %}
 </ul>
 </body>
